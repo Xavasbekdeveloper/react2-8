@@ -1,0 +1,33 @@
+.create {
+    padding: 100px 0;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    input {
+        width: 400px;
+        padding: 8px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        color: gray;
+        font-size: 17px;
+        font-weight: 400;
+        outline: none;
+    }
+
+    button {
+        width: 400px;
+        padding: 8px;
+        border: none;
+        background-color: rgba(15, 15, 18, 0.827);
+        color: #fff;
+        font-weight: 400;
+        font-size: 17px;
+        border-radius: 6px;
+        outline: none;
+    }
+
+}

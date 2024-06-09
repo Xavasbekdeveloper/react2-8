@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": "6237",
+      "title": "samsung s22",
+      "category": "phone",
+      "price": {
+        "oldPrice": "2000",
+        "newPrice": "2100"
+      },
+      "image": "https://www.pngall.com/wp-content/uploads/13/Galaxy-S23-Ultra-PNG-Clipart.webp"
+    }
+  ]
+}
