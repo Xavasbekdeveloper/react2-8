@@ -9,6 +9,26 @@
         "newPrice": "2100"
       },
       "image": "https://www.pngall.com/wp-content/uploads/13/Galaxy-S23-Ultra-PNG-Clipart.webp"
+    },
+    {
+      "id": "3f8e",
+      "title": "black_wolf",
+      "category": "phone23",
+      "price": {
+        "oldPrice": "12",
+        "newPrice": "21"
+      },
+      "image": "https://www.pngall.com/wp-content/uploads/13/Galaxy-S23-Ultra-PNG-Clipart.webp"
+    },
+    {
+      "id": "34bb",
+      "title": "12345",
+      "category": "phone",
+      "price": {
+        "oldPrice": "12",
+        "newPrice": "21"
+      },
+      "image": "21"
     }
   ]
 }

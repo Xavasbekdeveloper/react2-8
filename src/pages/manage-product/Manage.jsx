@@ -10,6 +10,8 @@ const API__URL = "http://localhost:4000/products";
 const Manage = () => {
   const [data, setData] = useState(null);
   const [reload, setReload] = useState(false);
+  const [show, setShow] = useState(false);
+  const [edit, setEdit] = useState(null);
 
   useEffect(() => {
     fetch(API__URL)
@@ -48,7 +50,12 @@ const Manage = () => {
             <span>${product.price.newPrice}</span>
           </div>
           <div className="manage__card__btns">
-            <button>
+            <button
+              onClick={() => {
+                setShow(true);
+                setEdit(product);
+              }}
+            >
               <FaEdit />
             </button>
             <button onClick={() => handleDelete(product.id)}>
@@ -66,7 +73,13 @@ const Manage = () => {
         <div className="container manage__container">{products}</div>
       </section>
 
-      <Modal />
+      <Modal
+        setReload={setReload}
+        setShow={setShow}
+        show={show}
+        setEdit={setEdit}
+        edit={edit}
+      />
     </>
   );
 };
